@@ -29,7 +29,7 @@ bot.on('message', (msg) => {
 // Message to send on start
 bot.onText(/\/start/, (msg) => {
 
-    bot.sendMessage(msg.chat.id, "Hi and welcome to Kotani by @eosnairobi block producer candidate \n\n Some of the questions you can ask are: \n - balance ha2tsmzqhege \n\n In case you get stuck, you can try /help to show you commands you can try");
+    bot.sendMessage(msg.chat.id, "Hi and welcome to Kotani bot by @eosnairobi block producer candidate \n\n Some of the questions you can ask are: \n - balance ha2tsmzqhege \n\n In case you get stuck, you can try /help to show you commands you can try");
         
 });
 
